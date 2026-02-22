@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "deckId": "T-18",
+    "title": "Studying 18",
+    "theme": "blue"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "headline": "How to Study Effectively",
+      "subheadline": "Learn more without more hours"
+    },
+    {
+      "type": "content",
+      "headline": "The Problem",
+      "bullets": [
+        "Most people study, but don’t learn.",
+        "Re-reading feels productive; it doesn’t stick.",
+        "Highlighting builds familiarity, not fluency.",
+        "Real learning needs retrieval and application."
+      ],
+      "note": "If studying feels easy, it’s probably not working."
+    },
+    {
+      "type": "content",
+      "headline": "The 3 Rules of Effective Study",
+      "bullets": [
+        "Active recall: pull info from memory.",
+        "Spaced repetition: revisit over time.",
+        "Deliberate practice: target your weak spots."
+      ],
+      "note": "These three separate ‘I saw it’ from ‘I can do it.’"
+    },
+    {
+      "type": "content",
+      "headline": "Active Recall: What to Do",
+      "bullets": [
+        "Blurting: write all you remember, then check gaps.",
+        "Practice questions: exam-style problems, not summaries.",
+        "Teach-back: explain it as if tutoring.",
+        "Quick example: Answer 10, mark, fix errors."
+      ]
+    },
+    {
+      "type": "content",
+      "headline": "Spacing + Interleaving",
+      "left": {
+        "title": "Spacing",
+        "bullets": [
+          "Shorter sessions across days beat cramming.",
+          "Day 0: learn.",
+          "Day 1: recall.",
+          "Day 3: recall again.",
+          "Day 7: mixed practice."
+        ]
+      },
+      "right": {
+        "title": "Interleaving",
+        "bullets": [
+          "Mix topics; avoid marathon single-topic blocks.",
+          "Feels harder; that’s why it works.",
+          "Trains method choice under pressure."
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "headline": "The Feedback Loop",
+      "subheadline": "Improve fast with targeted fixes",
+      "bullets": [
+        "After each session, ask three questions.",
+        "What did I miss, and why?",
+        "What pattern keeps repeating?",
+        "What will I do next?",
+        "Rule: mistakes define your plan.",
+        "Spend 70% weak areas, 30% review."
+      ]
+    },
+    {
+      "type": "content",
+      "headline": "A Simple 45-Min Template",
+      "bullets": [
+        "0–5: set a specific goal.",
+        "5–25: active recall or questions.",
+        "25–35: mark and log errors.",
+        "35–45: fix errors; schedule review.",
+        "No motivation needed—use the system."
+      ],
+      "note": "No fancy motivation needed—just a system."
+    },
+    {
+      "type": "closing",
+      "headline": "Technique beats time.",
+      "subheadline": "Swap re-reading for retrieval, then space it out."
+    }
+  ]
+}

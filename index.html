@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>FlowPitch</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="theme-blue">
+  <div id="bg" class="bg" aria-hidden="true">
+    <div class="bg-layer gradient"></div>
+    <div class="bg-layer stars"></div>
+    <div class="bg-layer grid"></div>
+    <div class="bg-ornament orb orb-a"></div>
+    <div class="bg-ornament orb orb-b"></div>
+  </div>
+  <header id="topnav" class="topnav">
+    <div class="nav-inner">
+      <div class="brand">
+        <span class="logo-dot" aria-hidden="true"></span>
+        <span id="navDeckTitle" class="nav-title">Loading…</span>
+      </div>
+      <div class="nav-actions">
+        <button id="exportPdfBtn" type="button" class="btn primary">Export PDF</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="deck" class="deck" aria-live="polite" aria-label="Slide deck" tabindex="0">
+    <!-- Slides will be injected here -->
+    <div id="loadingState" class="loading">
+      <div class="spinner" aria-hidden="true"></div>
+      <div class="loading-text">Loading deck…</div>
+    </div>
+  </main>
+
+  <aside id="errorPanel" class="error-panel" hidden>
+    <div class="error-card">
+      <h3 class="error-title">Could not load content.json</h3>
+      <p class="error-msg">Please check the file path and try again. This deck reads all copy from content.json.</p>
+      <button type="button" class="btn" id="retryBtn">Retry</button>
+    </div>
+  </aside>
+
+  <div id="progressRail" class="progress-rail" aria-hidden="true">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
